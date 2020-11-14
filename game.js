@@ -10,11 +10,12 @@ let obCount = frameCount;
 // Create a collection to hold the generated x coordinates
 const obXCoors = [];
 
-const square = {
+const hero = {
 
-  height: 32,
+  height: 75,
   jumping: true,
-  width: 32,
+  background: url(eric.png),
+  width: 75,
   x: 0,
   xVelocity: 0,
   y: 0,
