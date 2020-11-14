@@ -14,7 +14,7 @@ const hero = {
 
   height: 75,
   jumping: true,
-  background: url(eric.png),
+  
   width: 75,
   x: 0,
   xVelocity: 0,
