@@ -12,7 +12,6 @@ const obXCoors = [];
 
 const square = {  height: 32,
   jumping: true,
-  background: url(eric.png),
   width: 32,
   x: 0,
   xVelocity: 0,
