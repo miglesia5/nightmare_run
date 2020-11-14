@@ -10,18 +10,14 @@ let obCount = frameCount;
 // Create a collection to hold the generated x coordinates
 const obXCoors = [];
 
-const hero = {
-
-  height: 75,
+const square = {  height: 32,
   jumping: true,
-  
-  width: 75,
+  background: url(eric.png),
+  width: 32,
   x: 0,
   xVelocity: 0,
   y: 0,
-  yVelocity: 0
-
-};
+  yVelocity: 0};
 
 // Create the obstacles for each frame
 const nextFrame = () => {
